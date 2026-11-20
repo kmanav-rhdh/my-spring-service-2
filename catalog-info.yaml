@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-spring-service-2
+  description: A Spring Boot backend service
+  annotations:
+    github.com/project-slug: kmanav-rhdh/my-spring-service-2
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/janus-authors
